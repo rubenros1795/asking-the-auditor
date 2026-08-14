@@ -20,6 +20,7 @@ metrics.py       Cohen's kappa, weighted kappa, and confusion-matrix helpers
 data/            annotated corpus (see below)
 docs/            annotation codebook (schema definitions and decision rules)
 figures/         output directory for generated figures (populated on run)
+code/            the LLM annotation scripts and manual annotation UI that produced data/ (see code/README.md)
 ```
 
 ## Data (`data/`)
@@ -66,3 +67,11 @@ jupyter execute analysis.ipynb --output=analysis.ipynb   # or open and run inter
 
 No API key is required to reproduce the paper's tables and figures — all
 annotation has already been produced and is included in `data/`.
+
+## Annotation code (`code/`)
+
+The scripts that produced `data/` — LLM batch annotation via the Claude
+Batches API and the Streamlit UI used for manual coding — are published in
+`code/` for methodological transparency. They are **not required** to
+reproduce the paper (see above); running them calls the Anthropic API and
+incurs cost. No API key is included — see `code/README.md`.
