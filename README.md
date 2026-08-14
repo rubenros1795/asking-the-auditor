@@ -1,7 +1,6 @@
 # Asking the Auditor
 
-Code and data accompanying *Asking the Auditor: How Members of Parliament Use
-Questions about Audits to Control the Executive*.
+Code and data accompanying *Asking the Auditor*.
 
 The paper studies 1,778 formal written questions and 1,703 answers exchanged
 between the Dutch House of Representatives and the Netherlands Court of Audit
